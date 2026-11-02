@@ -1,0 +1,180 @@
+{
+  "scene": [
+    [
+      "run.do",
+      "simulation.log"
+    ]
+  ],
+  "pass": [
+    [
+      "run_counter.do",
+      "counter.log"
+    ],
+    [
+      "run_integration.do",
+      "integration.log"
+    ],
+    [
+      "run_video.do",
+      "video.log"
+    ]
+  ],
+  "focus": [
+    [
+      "run.do",
+      "simulation.log"
+    ],
+    [
+      "run_ui.do",
+      "ui.log"
+    ],
+    [
+      "run_video.do",
+      "video.log"
+    ]
+  ],
+  "brightness": [
+    [
+      "run.do",
+      "simulation.log"
+    ],
+    [
+      "run_bayer.do",
+      "bayer.log"
+    ]
+  ],
+  "buzzer": [
+    [
+      "run.do",
+      "simulation.log"
+    ]
+  ],
+  "startup": [
+    [
+      "run_levels.do",
+      "levels.log"
+    ],
+    [
+      "run_vtc.do",
+      "actual_vtc.log"
+    ]
+  ],
+  "control": [
+    [
+      "run_alarm.do",
+      "alarm.log"
+    ],
+    [
+      "run_alarm_clock.do",
+      "alarm_clock.log"
+    ],
+    [
+      "run_controls.do",
+      "controls.log"
+    ],
+    [
+      "run_reset.do",
+      "reset.log"
+    ]
+  ],
+  "camera": [
+    [
+      "run.do",
+      "simulation.log"
+    ],
+    [
+      "run_hold.do",
+      "hold.log"
+    ]
+  ],
+  "color": [
+    [
+      "run_detect.do",
+      "detect.log"
+    ],
+    [
+      "run_render.do",
+      "render.log"
+    ]
+  ],
+  "light": [
+    [
+      "run.do",
+      "simulation.log"
+    ]
+  ],
+  "latency": [
+    [
+      "run.do",
+      "simulation.log"
+    ]
+  ],
+  "ae": [
+    [
+      "run.do",
+      "simulation.log"
+    ]
+  ],
+  "display": [
+    [
+      "run.do",
+      "simulation.log"
+    ],
+    [
+      "run_overlay.do",
+      "overlay.log"
+    ],
+    [
+      "run_syntax.do",
+      "syntax.log"
+    ]
+  ],
+  "isp": [
+    [
+      "run.do",
+      "simulation.log"
+    ]
+  ],
+  "render": [
+    [
+      "run.do",
+      "simulation.log"
+    ]
+  ],
+  "serial": [
+    [
+      "run.do",
+      "simulation.log"
+    ]
+  ],
+  "transport": [
+    [
+      "run.do",
+      "simulation.log"
+    ],
+    [
+      "run_slow.do",
+      "slow.log"
+    ],
+    [
+      "run_overflow.do",
+      "overflow.log"
+    ],
+    [
+      "run_burst.do",
+      "burst.log"
+    ],
+    [
+      "run_full.do",
+      "full.log"
+    ],
+    [
+      "run_rate_1980.do",
+      "rate_1980.log"
+    ],
+    [
+      "run_rate_1420.do",
+      "rate_1420.log"
+    ]
+  ]
+}

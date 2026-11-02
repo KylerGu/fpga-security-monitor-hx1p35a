@@ -1,0 +1,14 @@
+{
+  "not_bundled": true,
+  "base": "TD_ROOT/sim_release/ph1p",
+  "sha256": {
+    "ph1p_logic_bufg.v": "23950e1134040701237a94cfa6f2a6b1b77232141fe68ee2cb8be5e92eda8f7e",
+    "ph1p_logic_eram.v": "70d89b70bdd51812ad86b91e88526b4604ebb117516efda5af976fcddb2e69af",
+    "ph1p_logic_hrio.v": "fe602af25ced1c1707f25416d8063530ace6f5dbef34e602df953eb98e6adc74",
+    "ph1p_phy_gsr.v": "787312a19b4007bef3b76986bce267966b2d04c1871290ce29905629e38f1524",
+    "ph1p_phy_hr_pad.v": "fe559fdcae48047150e47812765093ffcff1d89d30c47fef217f3c0394d68522",
+    "ph1p_phy_ioclk.v": "9b803882c357fff74885ac437a66773b0566dc4e2c6bdd9e03f263417b7586dd",
+    "ph1p_phy_mlclk.v": "533b2e6a4373471b14f0e09c2d30b8a929324dee21c716cf31c0bd74aee7bbc9",
+    "ph1p_phy_pll_v2.v": "91a10de0f6bbbe29db3b6f7ea62d735058756fdd4a3bc73370e1186ad8814e7c"
+  }
+}

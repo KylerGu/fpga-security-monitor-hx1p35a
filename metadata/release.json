@@ -1,0 +1,14 @@
+{
+  "release": "final_ddr_clock_fix_2026-11-01",
+  "freeze_commit": "a8c0ae5504c1352735915eac2878e5b947572293",
+  "freeze_tag": "final-ddr-clock-fix-2026-11-01",
+  "source_commit": "f10e5845d347ae134a2beb1e45d77ee0f7319c12",
+  "bit_sha256": "f787fd27c9d53362792d60e67884caa15f55bfa3df9f6659d756b129d1615e20",
+  "bit_bytes": 1789539,
+  "public_distribution": "PUBLIC_COMPETITION_SUBMISSION_CONFIRMED_BY_SUBMITTER",
+  "repository": "https://github.com/KylerGu/fpga-security-monitor-hx1p35a",
+  "visibility": "public",
+  "publication_confirmation_date": "2026-11-02",
+  "publication_basis": "Competition submission form requires a project GitHub URL; submitter confirms IP and examples come from official competition materials.",
+  "third_party_license_changes": false
+}

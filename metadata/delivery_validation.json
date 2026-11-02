@@ -1,0 +1,613 @@
+{
+  "checks": [
+    {
+      "action": "elaborate",
+      "finished_at": "2026-11-02T07:40:34.547727+00:00",
+      "result": "PASS",
+      "scope": "elaboration only",
+      "records": [
+        {
+          "test": "elaborate.log",
+          "result": "PASS",
+          "log_sha256": "de594d3e52b45aa22678ec9539f772dc572ea2b2345a945a628af68d46996d59",
+          "warnings_summary": null,
+          "markers": [
+            "DELIVERY_ELABORATION_COMPLETE"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "simulate",
+      "finished_at": "2026-11-02T07:55:36.687384+00:00",
+      "result": "PASS",
+      "scope": "35 functional + 1 syntax + DDR clock simulation; no full DRAM protocol or hardware tests",
+      "records": [
+        {
+          "test": "project\\simulation\\scene\\simulation.log",
+          "result": "PASS",
+          "log_sha256": "c5a5e141f4743760c0c6db53b1a2785149aff2d5e5c4feb8b9468b74da4d7903",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:40:55 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:40:56 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:40:56 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:40:56 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:40:56 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS pass_scene controls_cycle key3_no_sensitivity_change setup_preserves_scene descriptor_frame_latch raw_hidden sof_gate probes=         68 frames=         10",
+            "# End time: 23:40:58 on Nov 01,2026, Elapsed time: 0:00:02",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\pass\\counter.log",
+          "result": "PASS",
+          "log_sha256": "eed06a0d0897c397e2e12ee7a9fe4447b7becb0bb2e1b9452e1ea4dc9a7b7b5a",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:40:55 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS pass_counter first_seen band_jitter dwell reverse lost incomplete skipped_duplicate wrap sensitivity setup stale decimal_saturation pulses2002 reset",
+            "# End time: 23:40:56 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\pass\\integration.log",
+          "result": "PASS",
+          "log_sha256": "30a3383d3fe4d572c9e26bf9de0517a1211d1cbfdd54e45295f257403b173710",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:40:56 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:40:57 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:40:57 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS pass_integration real_color real_camera frame_gap clock_stop watchdog cdc_backpressure alarm_independent results=         37",
+            "# End time: 23:42:37 on Nov 01,2026, Elapsed time: 0:01:40",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\pass\\video.log",
+          "result": "PASS",
+          "log_sha256": "01e7455454c85e7968b23e4b3c03c2e43666edc6c095d1366720ad073660e1f5",
+          "warnings_summary": 9,
+          "markers": [
+            "# End time: 23:42:38 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:42:38 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS pass_video full_frame 4x720p exact_glyphs snapshot_midframe original_pixels RAW_full_frame_equal scene_label focus_color_priority protected=         96",
+            "# End time: 23:44:52 on Nov 01,2026, Elapsed time: 0:02:14",
+            "# Errors: 0, Warnings: 9"
+          ]
+        },
+        {
+          "test": "project\\simulation\\focus\\simulation.log",
+          "result": "PASS",
+          "log_sha256": "9ae76e731292abdfa9016e435f993615d45c42293dfe0c4b39b501cb80ed6538",
+          "warnings_summary": 6,
+          "markers": [
+            "# End time: 23:40:59 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS focus real_sobel sharp=368 blur=96 flat=0 weak_noise=0 outside_roi=0 incomplete_rejected modes4 stalls",
+            "# End time: 23:41:35 on Nov 01,2026, Elapsed time: 0:00:36",
+            "# Errors: 0, Warnings: 6"
+          ]
+        },
+        {
+          "test": "project\\simulation\\focus\\ui.log",
+          "result": "PASS",
+          "log_sha256": "426e695b8e095238e559b9324a4439b3b618f41563e3606943fc4db9e9465f91",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:41:35 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS focus_ui controls exposure_settle smooth peak reset stale recovery",
+            "# End time: 23:41:36 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\focus\\video.log",
+          "result": "PASS",
+          "log_sha256": "7ba900ae0db10971e0f8fd3eb558104376d8f389fb98d09817fe4306bf43a4bf",
+          "warnings_summary": 2,
+          "markers": [
+            "# End time: 23:41:36 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:41:37 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS focus_video alignment full720p_six_frames no_test_chart_or_labels original_Color_overlays monotone256 mode_frame_boundary reset unchanged_GRAY_EDGE red_alarm_OSD_intact same_sync_latency pixels=5529600",
+            "# End time: 23:44:28 on Nov 01,2026, Elapsed time: 0:02:51",
+            "# Errors: 0, Warnings: 2"
+          ]
+        },
+        {
+          "test": "project\\simulation\\brightness\\simulation.log",
+          "result": "PASS",
+          "log_sha256": "b6c838cfab139ec56c81658ac806b4459e2b141707fd14f5422ab523e32acef0",
+          "warnings_summary": 6,
+          "markers": [
+            "# End time: 23:44:29 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:44:29 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS brightness fixed_accepted_curve full720p_six_frames no_test_chart_or_labels original_Color_overlays monotone256 mode_frame_boundary reset unchanged_GRAY_EDGE red_alarm_OSD_intact same_sync_latency pixels=5529600",
+            "# End time: 23:46:48 on Nov 01,2026, Elapsed time: 0:02:19",
+            "# Errors: 0, Warnings: 6"
+          ]
+        },
+        {
+          "test": "project\\simulation\\brightness\\bayer.log",
+          "result": "PASS",
+          "log_sha256": "376be4351b09021d5e6df16fa8efe0c48bbd9238f23df7f086f5a3655f47902d",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:46:48 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS bayer_channels actual_BGGR both_row_parities red_green_blue white_black pixels=640",
+            "# End time: 23:46:49 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\buzzer\\simulation.log",
+          "result": "PASS",
+          "log_sha256": "99fd06962b4166bb30cd6a44414e958351881eb71b0e90b472bd8c3a7857c02d",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:44:52 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS buzzer tone2000 alarm_link quiet_release disarm setup reset clear_retrigger consecutive5 invalid_detector",
+            "# End time: 23:44:55 on Nov 01,2026, Elapsed time: 0:00:03",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\startup\\levels.log",
+          "result": "PASS",
+          "log_sha256": "16b58415efccfd6a8798b27739cb76cda8244d7d018a9093fabde9040e57d94b",
+          "warnings_summary": 20,
+          "markers": [
+            "# End time: 23:44:56 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:44:56 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:44:56 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS startup_levels original_rejected_fixed_valid frames=6 initial_sync_levels=2",
+            "# End time: 23:44:56 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 20"
+          ]
+        },
+        {
+          "test": "project\\simulation\\startup\\actual_vtc.log",
+          "result": "PASS",
+          "log_sha256": "ddac375fc07a3de016f3280e9803ef25f0e48ecccd2ac630b76fb14b6dc236bb",
+          "warnings_summary": 10,
+          "markers": [
+            "# End time: 23:44:57 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:44:57 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:44:57 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS startup_actual_vtc original_rejected_fixed_valid frames=8",
+            "# End time: 23:44:58 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 10"
+          ]
+        },
+        {
+          "test": "project\\simulation\\control\\alarm.log",
+          "result": "PASS",
+          "log_sha256": "06450ed02ec632a38a592c2bb0d409ac57d3f56e7d6bbe4a8a7daf69f598b232",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:44:58 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:44:58 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS alarm confirm5 quiet_timer reentry clear disarm watchdog bcd_saturates",
+            "# End time: 23:44:59 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\control\\alarm_clock.log",
+          "result": "PASS",
+          "log_sha256": "b7145f641442bfe3b2688528e9133d509d9d62e1b32c1f24abc4f8d862699c7a",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:44:59 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS alarm_clock crystal_2000ms stopped_camera watchdog500 disarm clear reset coherent_reply restart_confirm5",
+            "# End time: 23:45:01 on Nov 01,2026, Elapsed time: 0:00:02",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\control\\controls.log",
+          "result": "PASS",
+          "log_sha256": "fc261e4b11457f1b1b222ea7f2c79dda9f1142c4e7829b33cc1d270c5d596e60",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:45:01 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:45:01 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS controls modes setup edit arm long_clear sensitivity ae_switch second_toggle",
+            "# End time: 23:45:01 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\control\\reset.log",
+          "result": "PASS",
+          "log_sha256": "2578015e82a1fc1c4cb8368ab54ae58e223ce309c77a6ac994f075462f660988",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:45:02 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS reset asynchronous_assert local_release3 mailbox_pending_reset phases12",
+            "# End time: 23:45:02 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\camera\\simulation.log",
+          "result": "PASS",
+          "log_sha256": "c50dacc00a798f49554132c3cd799f93543857b792ae4afeed9c772d2c4b709b",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:45:03 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:45:03 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:45:03 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:45:03 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS camera normalized_rgb gray mean diff ROI box event_metadata frames=25",
+            "# End time: 23:45:07 on Nov 01,2026, Elapsed time: 0:00:04",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\camera\\hold.log",
+          "result": "PASS",
+          "log_sha256": "26c3514ad94dea75fa95e621b0e9148f68948595f951bf879e3ddae990ca7653",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:45:07 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:45:07 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:45:08 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:45:08 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS gray_hold nonuniform averages previous difference gaps addresses pixels=64",
+            "# End time: 23:45:08 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\color\\detect.log",
+          "result": "PASS",
+          "log_sha256": "0615c19de347c9dd46b9a0e6cbac714787b0c21f0ec74cada3cc8c4d7efe38a1",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:45:09 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:45:09 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:45:09 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:45:09 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS color_detect block_threshold colour_threshold bbox isolated_rejected packing frame_association levels_S0_S3 results=14",
+            "# End time: 23:45:11 on Nov 01,2026, Elapsed time: 0:00:02",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\color\\render.log",
+          "result": "PASS",
+          "log_sha256": "1e5ef56bff206dac17a45b1d44deff45ae4818368ce2f09d39c3433780a4725f",
+          "warnings_summary": 12,
+          "markers": [
+            "# End time: 23:45:12 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:45:12 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS color_render ring=784 found_none_hidden reference_identical decimal_200_540_37 perf_line ae_288",
+            "# End time: 23:46:17 on Nov 01,2026, Elapsed time: 0:01:05",
+            "# Errors: 0, Warnings: 12"
+          ]
+        },
+        {
+          "test": "project\\simulation\\light\\simulation.log",
+          "result": "PASS",
+          "log_sha256": "f080b3395594ce3000c336a10fc274e00f374e3ef510c91bcede3937d20a3b69",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:46:17 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:18 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:18 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:18 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS light_guard flicker_no_alarm hold_then_count near_person_alarms quadrant_threshold results=34",
+            "# End time: 23:46:22 on Nov 01,2026, Elapsed time: 0:00:04",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\latency\\simulation.log",
+          "result": "PASS",
+          "log_sha256": "b5c1c358804970c1451f448baac391ac5d0a07f918cc25ebbe5c31d93d006cce",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:46:23 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS latency fps_bcd carry saturate idle lag_frames saturate untouched_bits",
+            "# End time: 23:46:23 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\ae\\simulation.log",
+          "result": "PASS",
+          "log_sha256": "8e7e49c8074092c70d9024b4a628d3bf67763f9e56499b5252cc87c194eb78d9",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:46:24 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS ae_control far_near_deadband interval abort clamp fixed writer_map handshake",
+            "# End time: 23:46:24 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\display\\simulation.log",
+          "result": "PASS",
+          "log_sha256": "e11881a4e476ab3b32390eb4a74bd8c45c362cc07b7a5dc96cce1b62f93ea11f",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:46:25 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:25 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS display epoch late_descriptor vertical_only stable_mode",
+            "# End time: 23:46:25 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\display\\overlay.log",
+          "result": "PASS",
+          "log_sha256": "38d1512113b35ae228ee85d4dc0d3ee13be15d350ef480ac278c9981e57e087a",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:46:26 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:26 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS overlay half_open_ROI inclusive_motion_box mode_valid_alarm light_status",
+            "# End time: 23:46:26 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\display\\syntax.log",
+          "result": "PASS",
+          "log_sha256": "7445d5d52616d8f3ab326fd382c0fd12c4d266b5a773471665b323811d306686",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:46:27 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:27 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\isp\\simulation.log",
+          "result": "PASS",
+          "log_sha256": "13513719c8cfa51fd57502fd33595850f278963fd0587a0557c73890e95c670e",
+          "warnings_summary": 4,
+          "markers": [
+            "# End time: 23:46:28 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:28 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS real AWB raw_tap early_SOF frame_mode RAW_GRAY_EDGE_MOTION_RAW packed_RGB",
+            "# End time: 23:46:28 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 4"
+          ]
+        },
+        {
+          "test": "project\\simulation\\render\\simulation.log",
+          "result": "PASS",
+          "log_sha256": "62a7ff8ed0bbb495e02a7a50dfc537d9e3fa89c0402a9a809eeeeb08df9e0592",
+          "warnings_summary": 6,
+          "markers": [
+            "# End time: 23:46:29 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:29 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS render mixer_real_output pixels=921600 event_bcd42 ROI_motion_status_logo",
+            "# End time: 23:46:41 on Nov 01,2026, Elapsed time: 0:00:12",
+            "# Errors: 0, Warnings: 6"
+          ]
+        },
+        {
+          "test": "project\\simulation\\serial\\simulation.log",
+          "result": "PASS",
+          "log_sha256": "a769fb76caf83baf41f15e9ca39a3704ebd465e8a77ceba4548f2896cfedabd3",
+          "warnings_summary": 0,
+          "markers": [
+            "# End time: 23:46:43 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:43 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS serial real_lane vendor_ODDR reset_phases12 output_edges=4800",
+            "# End time: 23:46:44 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 0"
+          ]
+        },
+        {
+          "test": "project\\simulation\\transport\\simulation.log",
+          "result": "PASS",
+          "log_sha256": "7e2756eb4ae31d401a52ad12363dd68bb9adfa553fea54c4c367222d23b4516a",
+          "warnings_summary": 18,
+          "markers": [
+            "# End time: 23:46:45 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:45 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:45 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS transport actual_writer_queue_manager_reader protected_slot partial_frame controller_stalls response_latency24 pixel_checks=7680",
+            "# End time: 23:46:46 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 18"
+          ]
+        },
+        {
+          "test": "project\\simulation\\transport\\slow.log",
+          "result": "PASS",
+          "log_sha256": "3bae6ca1b90bb4cdc34f813c76db056afc03158eccfa47faa7d025540112b321",
+          "warnings_summary": 18,
+          "markers": [
+            "# End time: 23:46:47 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:47 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:47 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS transport_slow actual_writer_queue_manager_reader protected_slot partial_frame controller_stalls response_latency64 pixel_checks=7680",
+            "# End time: 23:46:48 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 18"
+          ]
+        },
+        {
+          "test": "project\\simulation\\transport\\overflow.log",
+          "result": "PASS",
+          "log_sha256": "8cce1a8faf80e24ef6982090e49d37f29b9b9ed58a07b18426e7a574b9d5d712",
+          "warnings_summary": 18,
+          "markers": [
+            "# End time: 23:46:49 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:49 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:49 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS transport_overflow missing_words_rejected next_complete_frame_recovers",
+            "# End time: 23:46:51 on Nov 01,2026, Elapsed time: 0:00:02",
+            "# Errors: 0, Warnings: 18"
+          ]
+        },
+        {
+          "test": "project\\simulation\\transport\\burst.log",
+          "result": "PASS",
+          "log_sha256": "199c5b9c62d77beac479591c1d7119bdb4a4fe72b83658a48c1b8c5c8ed5bf5a",
+          "warnings_summary": 18,
+          "markers": [
+            "# End time: 23:46:51 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:51 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:52 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS transport_burst concurrent_read_write camera3of4 row_blank1980 protected_slot pixel_checks=10240",
+            "# End time: 23:46:53 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 18"
+          ]
+        },
+        {
+          "test": "project\\simulation\\transport\\full.log",
+          "result": "PASS",
+          "log_sha256": "5ea1cdcc4c355d7b32e22434f68a579207f85c95123237635cc201589483f676",
+          "warnings_summary": 18,
+          "markers": [
+            "# End time: 23:46:53 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:53 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:46:54 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS transport_full720p actual_writer_queue_manager_reader protected_slot partial_frame controller_stalls response_latency24 pixel_checks=2764800",
+            "# End time: 23:51:09 on Nov 01,2026, Elapsed time: 0:04:15",
+            "# Errors: 0, Warnings: 18"
+          ]
+        },
+        {
+          "test": "project\\simulation\\transport\\rate_1980.log",
+          "result": "PASS",
+          "log_sha256": "6ef49af9d6999c9acfa61a3b3a64a70a7a790b2c6516dde191aa4aef5ef37ef8",
+          "warnings_summary": 18,
+          "markers": [
+            "# End time: 23:51:10 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:51:10 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:51:10 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS transport_rate continuous_rows protected_slot pixel_checks=307200",
+            "# End time: 23:51:40 on Nov 01,2026, Elapsed time: 0:00:30",
+            "# Errors: 0, Warnings: 18"
+          ]
+        },
+        {
+          "test": "project\\simulation\\transport\\rate_1420.log",
+          "result": "PASS",
+          "log_sha256": "aa19a147ced2674a26fc7f69a3bea94a37b32b806fc56bae43a09c0eaa5eec6d",
+          "warnings_summary": 18,
+          "markers": [
+            "# End time: 23:51:40 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:51:40 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:51:41 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS transport_rate continuous_rows protected_slot pixel_checks=307200",
+            "# End time: 23:52:07 on Nov 01,2026, Elapsed time: 0:00:26",
+            "# Errors: 0, Warnings: 18"
+          ]
+        },
+        {
+          "test": "project\\simulation\\ddr_clock\\clock.log",
+          "result": "PASS",
+          "log_sha256": "db879f6d471f211f99e03acc30fcfe92d8c8569c541a3522f0a22172c7bdd0b7",
+          "warnings_summary": 152,
+          "markers": [
+            "# End time: 23:52:09 on Nov 01,2026, Elapsed time: 0:00:01",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:52:09 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# End time: 23:52:09 on Nov 01,2026, Elapsed time: 0:00:00",
+            "# Errors: 0, Warnings: 0",
+            "# SIMULATION_PASS ddr_clock vendor_models 50MHz_ref DDR266.667 user66.667 cfg50 reset_relock tCK3750 nREFI2080 nRFC28 nWR4",
+            "# End time: 23:55:36 on Nov 01,2026, Elapsed time: 0:03:27",
+            "# Errors: 0, Warnings: 152"
+          ]
+        }
+      ]
+    }
+  ],
+  "full_build_performed": false,
+  "bitgen_performed": false,
+  "hardware_programming_performed": false,
+  "timing_numbers": "inherited original freeze, not remeasured",
+  "regression_reused_prior_logs": false,
+  "external_tools_not_bundled": true
+}

@@ -1,0 +1,74 @@
+{
+  "result": "PASS",
+  "retained_absolute_path_comments": [
+    {
+      "path": "project/user_source/hdl_source/isp/awb/ram/blk_mem_gen_awb_delay_signal.v",
+      "line": 7,
+      "text": " ** File\t:\tE:/vlkus/test/test20/04_fpga_cs500_H10/al_ip/blk_mem_gen_awb_delay_signal.v"
+    },
+    {
+      "path": "project/user_source/hdl_source/isp/awb/ram/blk_mem_gen_awb_delay_signal.vhd",
+      "line": 5,
+      "text": " -- File\t:\tE:/vlkus/test/test20/04_fpga_cs500_H10/al_ip/blk_mem_gen_awb_delay_signal.vhd"
+    }
+  ],
+  "absolute_path_comments_not_executed": true,
+  "frozen_tcl_constraint_references": [
+    {
+      "script": "project/td_project/compile_security.tcl",
+      "reference": "../../user_source/constraints_source/pin.adc",
+      "exists": true
+    },
+    {
+      "script": "project/td_project/compile_security.tcl",
+      "reference": "../../user_source/hdl_source/ph1p35_ddr/ddr2/src/adc/ddr2.adc",
+      "exists": true
+    },
+    {
+      "script": "project/td_project/compile_security.tcl",
+      "reference": "../camera_to_dsi_display.sdc",
+      "exists": true
+    },
+    {
+      "script": "project/td_project/compile_security.tcl",
+      "reference": "../pass_cdc_bounds.sdc",
+      "exists": true
+    },
+    {
+      "script": "project/td_project/compile_security.tcl",
+      "reference": "../../user_source/hdl_source/ph1p35_ddr/ddr2/src/sdc/ddr2.sdc",
+      "exists": true
+    },
+    {
+      "script": "project/td_project/compile_security.tcl",
+      "reference": "../../user_source/ip_source/w128_d512_fifo/w128_d512_fifo.tcl",
+      "exists": true
+    },
+    {
+      "script": "project/td_project/refine_route.tcl",
+      "reference": "./camera_to_dsi_display.sdc",
+      "exists": true
+    },
+    {
+      "script": "project/td_project/refine_route.tcl",
+      "reference": "./pass_cdc_bounds.sdc",
+      "exists": true
+    },
+    {
+      "script": "project/td_project/refine_route.tcl",
+      "reference": "../user_source/hdl_source/ph1p35_ddr/ddr2/src/sdc/ddr2.sdc",
+      "exists": true
+    },
+    {
+      "script": "project/td_project/refine_route.tcl",
+      "reference": "../user_source/ip_source/w128_d512_fifo/w128_d512_fifo.tcl",
+      "exists": true
+    }
+  ],
+  "external_runtime_configuration": [
+    "TD_ROOT",
+    "VSIM"
+  ],
+  "inactive_template": "DDR sim/fileset/fileset_mis.f uses <mis_path>; not invoked by delivery scripts",
+  "secret_pattern_matches": []
+}

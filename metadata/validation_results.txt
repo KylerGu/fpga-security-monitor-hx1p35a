@@ -1,0 +1,359 @@
+[elaborate / elaborate.log]
+DELIVERY_ELABORATION_COMPLETE
+
+[simulate / project\simulation\scene\simulation.log]
+# End time: 23:40:55 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:40:56 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 23:40:56 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:40:56 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:40:56 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS pass_scene controls_cycle key3_no_sensitivity_change setup_preserves_scene descriptor_frame_latch raw_hidden sof_gate probes=         68 frames=         10
+# End time: 23:40:58 on Nov 01,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\pass\counter.log]
+# End time: 23:40:55 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS pass_counter first_seen band_jitter dwell reverse lost incomplete skipped_duplicate wrap sensitivity setup stale decimal_saturation pulses2002 reset
+# End time: 23:40:56 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\pass\integration.log]
+# End time: 23:40:56 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:40:57 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:40:57 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS pass_integration real_color real_camera frame_gap clock_stop watchdog cdc_backpressure alarm_independent results=         37
+# End time: 23:42:37 on Nov 01,2026, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\pass\video.log]
+# End time: 23:42:38 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:42:38 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS pass_video full_frame 4x720p exact_glyphs snapshot_midframe original_pixels RAW_full_frame_equal scene_label focus_color_priority protected=         96
+# End time: 23:44:52 on Nov 01,2026, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 9
+
+[simulate / project\simulation\focus\simulation.log]
+# End time: 23:40:59 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS focus real_sobel sharp=368 blur=96 flat=0 weak_noise=0 outside_roi=0 incomplete_rejected modes4 stalls
+# End time: 23:41:35 on Nov 01,2026, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 6
+
+[simulate / project\simulation\focus\ui.log]
+# End time: 23:41:35 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS focus_ui controls exposure_settle smooth peak reset stale recovery
+# End time: 23:41:36 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\focus\video.log]
+# End time: 23:41:36 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:41:37 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS focus_video alignment full720p_six_frames no_test_chart_or_labels original_Color_overlays monotone256 mode_frame_boundary reset unchanged_GRAY_EDGE red_alarm_OSD_intact same_sync_latency pixels=5529600
+# End time: 23:44:28 on Nov 01,2026, Elapsed time: 0:02:51
+# Errors: 0, Warnings: 2
+
+[simulate / project\simulation\brightness\simulation.log]
+# End time: 23:44:29 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:44:29 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS brightness fixed_accepted_curve full720p_six_frames no_test_chart_or_labels original_Color_overlays monotone256 mode_frame_boundary reset unchanged_GRAY_EDGE red_alarm_OSD_intact same_sync_latency pixels=5529600
+# End time: 23:46:48 on Nov 01,2026, Elapsed time: 0:02:19
+# Errors: 0, Warnings: 6
+
+[simulate / project\simulation\brightness\bayer.log]
+# End time: 23:46:48 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS bayer_channels actual_BGGR both_row_parities red_green_blue white_black pixels=640
+# End time: 23:46:49 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\buzzer\simulation.log]
+# End time: 23:44:52 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS buzzer tone2000 alarm_link quiet_release disarm setup reset clear_retrigger consecutive5 invalid_detector
+# End time: 23:44:55 on Nov 01,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\startup\levels.log]
+# End time: 23:44:56 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:44:56 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:44:56 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS startup_levels original_rejected_fixed_valid frames=6 initial_sync_levels=2
+# End time: 23:44:56 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 20
+
+[simulate / project\simulation\startup\actual_vtc.log]
+# End time: 23:44:57 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:44:57 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:44:57 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS startup_actual_vtc original_rejected_fixed_valid frames=8
+# End time: 23:44:58 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 10
+
+[simulate / project\simulation\control\alarm.log]
+# End time: 23:44:58 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:44:58 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS alarm confirm5 quiet_timer reentry clear disarm watchdog bcd_saturates
+# End time: 23:44:59 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\control\alarm_clock.log]
+# End time: 23:44:59 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS alarm_clock crystal_2000ms stopped_camera watchdog500 disarm clear reset coherent_reply restart_confirm5
+# End time: 23:45:01 on Nov 01,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\control\controls.log]
+# End time: 23:45:01 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:45:01 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS controls modes setup edit arm long_clear sensitivity ae_switch second_toggle
+# End time: 23:45:01 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\control\reset.log]
+# End time: 23:45:02 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS reset asynchronous_assert local_release3 mailbox_pending_reset phases12
+# End time: 23:45:02 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\camera\simulation.log]
+# End time: 23:45:03 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:45:03 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:45:03 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:45:03 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS camera normalized_rgb gray mean diff ROI box event_metadata frames=25
+# End time: 23:45:07 on Nov 01,2026, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\camera\hold.log]
+# End time: 23:45:07 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:45:07 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:45:08 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 23:45:08 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS gray_hold nonuniform averages previous difference gaps addresses pixels=64
+# End time: 23:45:08 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\color\detect.log]
+# End time: 23:45:09 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:45:09 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:45:09 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:45:09 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS color_detect block_threshold colour_threshold bbox isolated_rejected packing frame_association levels_S0_S3 results=14
+# End time: 23:45:11 on Nov 01,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\color\render.log]
+# End time: 23:45:12 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:45:12 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS color_render ring=784 found_none_hidden reference_identical decimal_200_540_37 perf_line ae_288
+# End time: 23:46:17 on Nov 01,2026, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 12
+
+[simulate / project\simulation\light\simulation.log]
+# End time: 23:46:17 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:18 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:18 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:18 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS light_guard flicker_no_alarm hold_then_count near_person_alarms quadrant_threshold results=34
+# End time: 23:46:22 on Nov 01,2026, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\latency\simulation.log]
+# End time: 23:46:23 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS latency fps_bcd carry saturate idle lag_frames saturate untouched_bits
+# End time: 23:46:23 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\ae\simulation.log]
+# End time: 23:46:24 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS ae_control far_near_deadband interval abort clamp fixed writer_map handshake
+# End time: 23:46:24 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\display\simulation.log]
+# End time: 23:46:25 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:25 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS display epoch late_descriptor vertical_only stable_mode
+# End time: 23:46:25 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\display\overlay.log]
+# End time: 23:46:26 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:26 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS overlay half_open_ROI inclusive_motion_box mode_valid_alarm light_status
+# End time: 23:46:26 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\display\syntax.log]
+# End time: 23:46:27 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:27 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\isp\simulation.log]
+# End time: 23:46:28 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:28 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS real AWB raw_tap early_SOF frame_mode RAW_GRAY_EDGE_MOTION_RAW packed_RGB
+# End time: 23:46:28 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+
+[simulate / project\simulation\render\simulation.log]
+# End time: 23:46:29 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:29 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS render mixer_real_output pixels=921600 event_bcd42 ROI_motion_status_logo
+# End time: 23:46:41 on Nov 01,2026, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 6
+
+[simulate / project\simulation\serial\simulation.log]
+# End time: 23:46:43 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 23:46:43 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS serial real_lane vendor_ODDR reset_phases12 output_edges=4800
+# End time: 23:46:44 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+
+[simulate / project\simulation\transport\simulation.log]
+# End time: 23:46:45 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:45 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:45 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS transport actual_writer_queue_manager_reader protected_slot partial_frame controller_stalls response_latency24 pixel_checks=7680
+# End time: 23:46:46 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 18
+
+[simulate / project\simulation\transport\slow.log]
+# End time: 23:46:47 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:47 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:47 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS transport_slow actual_writer_queue_manager_reader protected_slot partial_frame controller_stalls response_latency64 pixel_checks=7680
+# End time: 23:46:48 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 18
+
+[simulate / project\simulation\transport\overflow.log]
+# End time: 23:46:49 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:49 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:49 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS transport_overflow missing_words_rejected next_complete_frame_recovers
+# End time: 23:46:51 on Nov 01,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 18
+
+[simulate / project\simulation\transport\burst.log]
+# End time: 23:46:51 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:51 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:52 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS transport_burst concurrent_read_write camera3of4 row_blank1980 protected_slot pixel_checks=10240
+# End time: 23:46:53 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 18
+
+[simulate / project\simulation\transport\full.log]
+# End time: 23:46:53 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:53 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:46:54 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS transport_full720p actual_writer_queue_manager_reader protected_slot partial_frame controller_stalls response_latency24 pixel_checks=2764800
+# End time: 23:51:09 on Nov 01,2026, Elapsed time: 0:04:15
+# Errors: 0, Warnings: 18
+
+[simulate / project\simulation\transport\rate_1980.log]
+# End time: 23:51:10 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:51:10 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:51:10 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS transport_rate continuous_rows protected_slot pixel_checks=307200
+# End time: 23:51:40 on Nov 01,2026, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 18
+
+[simulate / project\simulation\transport\rate_1420.log]
+# End time: 23:51:40 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:51:40 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:51:41 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS transport_rate continuous_rows protected_slot pixel_checks=307200
+# End time: 23:52:07 on Nov 01,2026, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 18
+
+[simulate / project\simulation\ddr_clock\clock.log]
+# End time: 23:52:09 on Nov 01,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 23:52:09 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:52:09 on Nov 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# SIMULATION_PASS ddr_clock vendor_models 50MHz_ref DDR266.667 user66.667 cfg50 reset_relock tCK3750 nREFI2080 nRFC28 nWR4
+# End time: 23:55:36 on Nov 01,2026, Elapsed time: 0:03:27
+# Errors: 0, Warnings: 152
+

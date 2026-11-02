@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "checks": {
+    "frozen_copied_files": 305,
+    "comparison_test_fixtures": 2,
+    "frozen_build_inputs": 166,
+    "native_project_references": 78,
+    "ip_file_references": 59,
+    "hdl_include_references": 30,
+    "inactive_ddr3_ddr4_include_references": 5
+  },
+  "errors": [],
+  "scope": "byte identity and static references only; not synthesis, timing or hardware validation"
+}

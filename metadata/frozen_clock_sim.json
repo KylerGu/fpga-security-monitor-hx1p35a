@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "vendor_models": {
+    "D:\\TD\\sim_release\\ph1p\\ph1p_phy_pll_v2.v": "91a10de0f6bbbe29db3b6f7ea62d735058756fdd4a3bc73370e1186ad8814e7c",
+    "D:\\TD\\sim_release\\ph1p\\ph1p_phy_mlclk.v": "533b2e6a4373471b14f0e09c2d30b8a929324dee21c716cf31c0bd74aee7bbc9",
+    "D:\\TD\\sim_release\\ph1p\\ph1p_phy_ioclk.v": "9b803882c357fff74885ac437a66773b0566dc4e2c6bdd9e03f263417b7586dd",
+    "D:\\TD\\sim_release\\ph1p\\ph1p_logic_bufg.v": "23950e1134040701237a94cfa6f2a6b1b77232141fe68ee2cb8be5e92eda8f7e",
+    "D:\\TD\\sim_release\\ph1p\\ph1p_phy_gsr.v": "787312a19b4007bef3b76986bce267966b2d04c1871290ce29905629e38f1524"
+  },
+  "scope": "Actual PLL0/PLL1/clock distribution RTL, vendor behavioral models, lock/reset recovery and timing-parameter elaboration. Not complete DDR memory-controller/DRAM protocol simulation or hardware qualification.",
+  "details": [
+    "# CLOCK_MEASURE ddr_ps=3749.998400 user_ps=15000.000000 cfg_ps=19999.993600 lock=1",
+    "# CLOCK_MEASURE ddr_ps=3750.000000 user_ps=15000.000000 cfg_ps=19999.993600 lock=1",
+    "# SIMULATION_PASS ddr_clock vendor_models 50MHz_ref DDR266.667 user66.667 cfg50 reset_relock tCK3750 nREFI2080 nRFC28 nWR4"
+  ]
+}

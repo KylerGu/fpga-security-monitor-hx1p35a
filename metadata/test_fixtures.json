@@ -1,0 +1,18 @@
+[
+  {
+    "path": "project/simulation/brightness/color_mixer_reference.v",
+    "source": "projects/Security_Monitor_720P_Color/user_source/hdl_source/hdmi_mixer.v",
+    "source_commit": "a8c0ae5504c1352735915eac2878e5b947572293",
+    "source_sha256": "c0109a4c42d514c61b227b4048d9333402088eb45732d222c890520a2b75773f",
+    "sha256": "654cc104bbb3e8ad80ec32faa9176e2c624ae8b57e4e6d7356491da5d4351750",
+    "transformation": "test-only module/instance-type renames, no production use"
+  },
+  {
+    "path": "project/simulation/brightness/color_overlay_reference.v",
+    "source": "projects/Security_Monitor_720P_Color/user_source/hdl_source/security/security_color_overlay.v",
+    "source_commit": "a8c0ae5504c1352735915eac2878e5b947572293",
+    "source_sha256": "5897086f46058c4e432ddf59a55179c10a54975c1f544a28af7bc5a6c556fa12",
+    "sha256": "8c0e7413511302e3d8bd58ca7396dfc9d94c3c87824e204633218e5a6c9fc944",
+    "transformation": "test-only module/instance-type renames, no production use"
+  }
+]

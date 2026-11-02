@@ -1,0 +1,12 @@
+{
+  "platform": "Windows x64",
+  "python_tested": "3.13.5",
+  "td": "6.2.168116",
+  "td_build": "Jun 12 2025 16:32:07",
+  "device": "PH1P35MDG324",
+  "speed": "-3",
+  "modelsim": "ModelSim ALTERA STARTER EDITION 10.3c, 2014.09 Sep 20 2014 (Altera 14.1)",
+  "ddr_ip": "MIS_DDRF6F1D0P0_1.1",
+  "tools_and_licenses_bundled": false,
+  "public_redistribution_cleared": false
+}

@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "pixel_count": 921600,
+  "rgb_sha256": "6303680931b2d90e15413fa6edfd401eb29710efbdb94053b735eb76dce528ad",
+  "source": "fresh delivery simulation render output; compared to frozen fixture",
+  "scope": "deterministic simulated frame, not hardware camera"
+}

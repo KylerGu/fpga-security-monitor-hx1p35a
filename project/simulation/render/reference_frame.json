@@ -1,0 +1,5 @@
+{
+  "pixel_count": 921600,
+  "rgb_sha256": "6303680931b2d90e15413fa6edfd401eb29710efbdb94053b735eb76dce528ad",
+  "scope": "Deterministic simulated MOTION/ALARM/CNT000042 frame before logo-address retiming; verifies unchanged output pixels and alignment, not a hardware camera image."
+}

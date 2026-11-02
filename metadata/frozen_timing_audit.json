@@ -1,0 +1,55 @@
+{
+  "frozen_checks": "Table of Contents\r\n-----------------\r\n1. checking no clock(0) (HIGH)\r\n2. checking clock definition(0) (HIGH)\r\n3. checking dummy node(4) (HIGH)\r\n4. checking invalid constraint(0) (HIGH)\r\n5. checking pll/clock buffer clock constraints(7) (HIGH)\r\n6. checking combinational loops(0) (HIGH)\r\n7. checking soft fifo timing exception constraints(0) (HIGH)\r\n8. checking no path constraints(0) (MEDIUM)\r\n9. checking shadowed/ignored timing exception constraints(2) (MEDIUM)\r\n10. checking no input delay(40) (MEDIUM)\r\n11. checking no output delay(70) (MEDIUM)\r\n12. checking partial input delay(1) (MEDIUM)\r\n13. checking partial output delay(0) (MEDIUM)\r\n14. checking abnormal input delay(0) (MEDIUM)",
+  "candidate_checks": "Table of Contents\n-----------------\n1. checking no clock(0) (HIGH)\n2. checking clock definition(0) (HIGH)\n3. checking dummy node(4) (HIGH)\n4. checking invalid constraint(0) (HIGH)\n5. checking pll/clock buffer clock constraints(0) (HIGH)\n6. checking combinational loops(0) (HIGH)\n7. checking soft fifo timing exception constraints(0) (HIGH)\n8. checking no path constraints(0) (MEDIUM)\n9. checking shadowed/ignored timing exception constraints(2) (MEDIUM)\n10. checking no input delay(40) (MEDIUM)\n11. checking no output delay(70) (MEDIUM)\n12. checking partial input delay(1) (MEDIUM)\n13. checking partial output delay(0) (MEDIUM)\n14. checking abnormal input delay(0) (MEDIUM)",
+  "warning_codes_before": {
+    "HDL-5007": 41,
+    "HDL-5323": 7,
+    "HDL-5317": 21,
+    "HDL-5314": 20,
+    "HDL-5369": 1,
+    "HDL-5001": 5,
+    "HDL-5106": 2,
+    "SYN-5065": 1,
+    "SYN-5013": 10,
+    "SYN-5025": 3,
+    "SYN-5011": 20,
+    "SYN-5041": 5,
+    "PHY-5060": 1,
+    "PHY-5016": 4,
+    "PHY-5088": 4,
+    "PHY-5079": 1
+  },
+  "warning_codes_after": {
+    "HDL-5007": 41,
+    "HDL-5323": 7,
+    "HDL-5317": 21,
+    "HDL-5314": 20,
+    "HDL-5369": 1,
+    "HDL-5001": 5,
+    "HDL-5106": 2,
+    "SYN-5065": 1,
+    "SYN-5013": 10,
+    "SYN-5025": 3,
+    "SYN-5011": 20,
+    "SYN-5041": 5,
+    "PHY-5060": 1,
+    "PHY-5016": 4,
+    "PHY-5088": 4,
+    "PHY-5079": 1
+  },
+  "new_warning_codes": [],
+  "critical_warnings": [
+    "PHY-5060 CRITICAL-WARNING: Clock net candidate O_cam_24m_syn_3 has mixed fanouts of 201 clock pins; 1 data/ctrl pins. Please check connection of the net in design.",
+    "PHY-5079 CRITICAL-WARNING: Marked 1 clock net(s) utilize the local routing resources. Please check log message and the sinks of clock nets."
+  ],
+  "elaborated_ddr": [
+    "HDL-1007 : elaborate module ph1p_ddrmc_wrapper_63f4ac254419(tCK=3750,HOST_AC_DRV=\"75\",HOST_DX_DRV=\"75\",HOST_DX_ODT=\"75\",DRAM_DRV=\"0\",DRAM_ODT=\"75\",CL=7,CAL_EN=0,PLL0_REFCLK_FREQ=50.0,PLL0_REFCLK_DIV=2,PLL0_FBKCLK_DIV=32,PLL0_CLK3_DIV=16,PLL1_REFCLK_FREQ=66.6666666666667,PLL1_REFCLK_DIV=2,PLL1_CLK0_DIV=24,MC_ADDR_MAP=\"ROW_COL_BANK\",MC_REORDER=\"NORMAL\",MC_ADDR_WIDTH=25,MC_DATA_WIDTH=128,MC_MASK_WIDTH=16,AXI_ADDR_WIDTH=26,AXI_DATA_WIDTH=128,AXI_MASK_WIDTH=16) in ../user_source/hdl_source/ph1p35_ddr/ddr2/ph1p_ddrmc_wrapper_63f4ac254419.v(14)",
+    "HDL-1007 : elaborate module ph1p_ddrphy_top(DX_NUM=2,BG_WIDTH=0,BA_WIDTH=2,ROW_WIDTH=13,ADR_WIDTH=13,MDL_MODE=\"HALF\",AC_DRV=\"75\",DX_DRV=\"75\",DX_ODT=\"75\",CWL=6,CL=7,PLL0_REFCLK_FREQ=50.0,PLL0_REFCLK_DIV=2,PLL0_FBKCLK_DIV=32,PLL0_CLK3_DIV=16,PLL1_REFCLK_FREQ=66.6666666666667,PLL1_REFCLK_DIV=2,PLL1_CLK0_DIV=24,DDRPHY_ROM_LEN=45,DDRPHY_ROM_INIT=\"ddrphy_cfg_rom.txt\") in ../user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_top.v(3)",
+    "HDL-1007 : elaborate module PH1P_PHY_PLL_V2(FBKCLK=\"VCO_PHASE0\",FIN=50.0,REFCLK_DIV=2,FBCLK_DIV=32,CLKC0_CPHASE=11,CLKC1_CPHASE=11,CLKC2_CPHASE=2,CLKC3_CPHASE=15,CLKC0_DIV=12,CLKC1_DIV=12,CLKC2_DIV=3,CLKC3_DIV=16,CLKC0_DUTY_INT=6,CLKC1_DUTY_INT=6,CLKC2_DUTY_INT=2,CLKC3_DUTY_INT=8,CLKC0_ENABLE=\"ENABLE\",CLKC1_ENABLE=\"ENABLE\",CLKC2_ENABLE=\"ENABLE\",CLKC3_ENABLE=\"ENABLE\",LPF_CAP=0,ICP_CUR=0,FEEDBK_MODE=\"NOCOMP\") in D:\\TD\\arch/ph1p_macro.v(1091)"
+  ],
+  "remaining_limits": [
+    "Existing camera mixed clock/data fanout and local clock/PLL feedback warnings are retained; no blanket harmless waiver.",
+    "Unconstrained external I/O budgets and board-level margins remain outside this constrained internal STA pass.",
+    "VCO800/1600 MHz are specification boundary values; hardware and independent review pending."
+  ]
+}
