@@ -10,5 +10,7 @@
   "visibility": "public",
   "publication_confirmation_date": "2026-11-02",
   "publication_basis": "Competition submission form requires a project GitHub URL; submitter confirms IP and examples come from official competition materials.",
-  "third_party_license_changes": false
+  "third_party_license_changes": false,
+  "document_revision": "reviewer-facing project overview",
+  "publication_tag": "submission-readme-2026-11-02"
 }

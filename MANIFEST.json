@@ -2,7 +2,7 @@
   "release": "final_ddr_clock_fix_2026-11-01",
   "freeze_commit": "a8c0ae5504c1352735915eac2878e5b947572293",
   "file_count_without_manifests": 336,
-  "payload_bytes": 7487881,
+  "payload_bytes": 7491742,
   "self_excluded": [
     "MANIFEST.json",
     "SHA256SUMS.txt"
@@ -35,8 +35,8 @@
     },
     {
       "path": "docs/GITHUB_PROPOSAL.md",
-      "bytes": 1432,
-      "sha256": "474524fdafab6341c9d027aabf3cfbe9ea829729c54646572ec15fe01416cc36",
+      "bytes": 1525,
+      "sha256": "1a6da3e96bd45aec800f1e176d273ea5b597eb861657e7519017da1f8ef2627a",
       "origin": "delivery documentation, tool or metadata"
     },
     {
@@ -131,8 +131,8 @@
     },
     {
       "path": "metadata/release.json",
-      "bytes": 782,
-      "sha256": "2be6ed5a8aa618e2632e09c6682b3ce685ab466d4872723488e5facb60859fd2",
+      "bytes": 896,
+      "sha256": "f49bfbf9908b25b93a9b5fb4855f432508fa05c1a29a47cea520fd5fd57828d5",
       "origin": "delivery documentation, tool or metadata"
     },
     {
@@ -2309,8 +2309,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2804,
-      "sha256": "4f9f80be2405458e94188a71b4eee7626a30f9df60db5f03ad78bcbd6e8f5eb4",
+      "bytes": 6458,
+      "sha256": "0f00f534267c5b4b5b085c2243a91f7ff6088029a35ea0a29dac8499354ad080",
       "origin": "delivery documentation, tool or metadata"
     },
     {
